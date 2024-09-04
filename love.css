@@ -1,0 +1,161 @@
+/*p{
+  color: white;
+}*/
+.container-fluid{
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+
+/*.navbar{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left: 5rem;
+}*/
+#navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color:  #F73D93;
+  padding-left: 5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-brand:hover{
+  color: white;
+}
+#nav-text{
+  color: white;
+}
+.nav-link{
+  margin-left: 2rem;
+}
+.nav-item{
+  padding:  5% 0%;
+margin-right: 20px;
+font-size: 1.8rem;
+
+}
+#navbarSupportedContent{
+  margin-right:  80%;
+}
+
+
+
+/*.nevbar-nav{
+  margin-bottom: 10%;
+}*/
+/*content section*/
+/*#content{
+  padding-top: 5%;
+background-color: #F73D93;
+}*/
+#home{
+  z-index: -1;
+  top: 1;
+  background-color: #98DED9;  /* #ff4c68*/
+  color: #fff;
+  text-align: center;
+  padding: 9rem;
+}
+.home-text{
+  padding-bottom:  5%;
+  font-size: 4rem;
+  color: black;
+}
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+.logo-tag{
+  color: #242F9B;
+}
+/*.homeimg{
+  margin-left: 50%;
+}*/
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+  height: 100%;
+  /*padding-bottom: 30%;*/
+  z-index: -1;
+
+  }
+/*shyari*/
+.card-text{
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+/*content*/
+#content{
+  z-index: 1;
+  margin-top: 5%;
+}
+
+/*cta*/
+#cta{
+  margin-top: 5%;
+/*  background-color: #A91079;*/
+background-color: white;
+  padding: 7% 10% 5%;
+  text-align: center;
+ }
+ .cta-text{
+
+   font-family: "Montserrat-black";
+   text-align: center;
+   color: black;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.laptop-img:hover{
+  visibility: hidden;
+}
+/*testimonial section*/
+#testimonials{
+
+  background-color: #98DED9;
+  text-align: center;
+  margin-bottom: 10%;
+
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  z-index: 0;
+}
+.testimonial-text{
+  color: black;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  font-size: 1rem;
+  background-color: black;
+}
+.footer-text{
+  color: white;
+}
+.social-icon{
+  margin: 20px 10px;
+  color: white;
+}
+#navbarSupportedContent{
+  margin-left: 40%;
+}
